@@ -7,15 +7,14 @@ class FindAlphabet {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
         String S = bf.readLine();
-        char[] alphabetArray = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        for (char alphabet: alphabetArray) {
-            System.out.print(S.indexOf(alphabet) + " ");
-        }
+//        char[] alphabetArray = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+//        for (char alphabet: alphabetArray) {
+//            System.out.print(S.indexOf(alphabet) + " ");
+//        }
 
-        System.out.println();
-        for (int i = 0; i < 100; i++) {
-            System.out.print(S.indexOf(i));
-            System.out.print(" ");
+        char[] hangeulArray = "가나다".toCharArray();
+        for (char hangeul : hangeulArray) {
+            System.out.print(S.indexOf(hangeul) + " ");
         }
     }
 }
