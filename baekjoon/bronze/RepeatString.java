@@ -17,7 +17,6 @@ class RepeatString {
                 System.out.print(s.repeat(R));
             }
             System.out.println();
-
         }
     }
 }
