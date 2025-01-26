@@ -1,4 +1,4 @@
-package baekjoon.bronze;
+package baekjoon.bronze.three;
 
 import java.io.*;
 
