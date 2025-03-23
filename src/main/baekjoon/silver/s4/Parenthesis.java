@@ -1,4 +1,4 @@
-package baekjoon.silver.s4;
+package silver.s4;
 
 public class Parenthesis {
     public static boolean validPS(String inputString) {
