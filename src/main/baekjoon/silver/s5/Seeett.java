@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Seeett {
     private static Set<Integer> intSet = new HashSet<>();
 
     public static void main(String[] args) throws Exception {
